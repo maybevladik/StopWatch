@@ -17,7 +17,7 @@ const ButtonStopWatch = (props) => {
                 </div>
                 : ''}
             { (props.status === 2) ?
-                <div className='third_block'>
+                <div className='thid_block'>
                     <button onClick={props.stop} className='stop' >Stop</button>
                     <button onClick={props.reset} className='reset' >Reset</button>
                     <button onClick={props.next} className='wait'>Continue</button>
